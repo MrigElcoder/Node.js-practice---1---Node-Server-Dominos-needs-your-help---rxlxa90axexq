@@ -8,5 +8,5 @@ function handleServer(req, res) {
   res.writeHead(200);
   res.end(" Welcome to Dominos!");
 }
-
+server.listen(8081);
 module.exports = httpServer;
